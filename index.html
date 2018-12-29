@@ -478,7 +478,8 @@
 		    			<!-- Form -->
 		    			<div class="contact-box">
 		    				<h4 class="title-bar title-bar-black"><strong>Escribeme</strong> </h4>
-		    				<form id="contact-form" class=" clearfix">
+		    				<form id="contact-form" method="post"  action ="phpmailer/contact.php" >
+
 		    					<div class="row">
 		    						<div class="col-md-6 form-group">
 		    							<input type="text" name="name" class="form-control" placeholder="Nombre">
@@ -487,7 +488,7 @@
 		    							<input type="email" name="email" class="form-control" placeholder="Email">
 		    						</div>
 		    						<div class="col-md-12 form-group">
-		    							<input type="text" name="subject" class="form-control" placeholder="Asunto">
+		    							<input type="email" name="phone" class="form-control" placeholder="Telefono">
 		    						</div>
 		    					</div>
 		    					<div class="form-group">
