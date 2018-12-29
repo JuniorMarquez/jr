@@ -35,12 +35,20 @@ $mail->Body    =
                                   width:100%;">
           
 
-          <div style="color:#e44c2a; padding:20px;" align="left">
+          <div style="; padding:20px;" align="left">
             <br/>
-           <b>'.$_POST['name'].'</b>,  <b>'.$_POST['email'].'</b>,   <b>'.$_POST['phone'].'</b>,  
+            <b>Nombre: </b>
+           <b>'.$_POST['name'].'</b>  
                     
           </div>
-          div style="color:#e44c2a; padding:20px;" align="left">
+
+           <div style=" padding:20px;" align="left">
+            <br/>
+            <b>Email: </b>
+           '.$_POST['email'].' , <b>Telefono: </b>  '.$_POST['phone'].'        
+          </div>
+
+          <div style=" padding:20px;" align="left">
             <br/>
             <b>Mensaje: </b>
            '.$_POST['message'].'                     
