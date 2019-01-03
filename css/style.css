@@ -1902,7 +1902,7 @@
 	}
 	
 	.icon.icon-filled {
-		color: #fff;
+		color: #ffd800;
 	}
 
 	.icon-default.icon-filled {
@@ -1912,6 +1912,13 @@
 	.icon-filled > i {
 		top: 1px;
 	}
+	 .glyph svg.icon {
+            width: 39px;
+            height: 77px;
+            color:#ffd800;
+        }
+
+
 
 	.icon-sm 									{ font-size: 24px;  width: 46px; height: auto; }
 	.icon-sm.icon-circle						{ height: 64px; width: 64px; }
@@ -1925,7 +1932,7 @@
 	.icon-default { border-color: #e5e5e5; }
 	.icon-default.icon-filled { background-color: #e5e5e5; }
 	.icon-black { border-color: #111111; }
-	.icon-black.icon-filled { background-color: #111111; }
+	.icon-black.icon-filled { background-color: #ffd800; }
 
 	.icon-box {
 		margin-bottom: 20px;
