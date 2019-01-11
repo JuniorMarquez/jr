@@ -6,7 +6,7 @@ $mail = new PHPMailer;
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'thetixs.com';       //  ssl://smtp.gmail.com          // Specify main and backup SMTP servers
+$mail->Host = $_POST['managerAccountHost'];      //  ssl://smtp.gmail.com          // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'developer@thetixs.com';                      // SMTP username
 $mail->Password = 'uoW9developer';                           // SMTP password
