@@ -820,7 +820,7 @@
 	--------------------------------------*/
 
 	.portfolio-list {
-		background: #fff;
+		background: #ffd800;
 	}
 
 	.portfolio-list.portfolio-dark {
@@ -859,7 +859,7 @@
 	}
 
 	.portfolio-list.portfolio-alternative .portfolio-item:hover .item-photo { 
-		opacity: 0.4;
+		opacity: 0.3;
 	}
 
 	.portfolio-item .item-overlay {
