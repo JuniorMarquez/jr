@@ -14,7 +14,7 @@
             var url='../index.html'; 
             function countdown(){
                 setTimeout(countdown, 1000);
-                $('#box').html("Andrea Zambrano. &nbsp;<h3>" + number + "</h3>&nbsp;seg .");
+                $('#box').html("Junior Marquez. &nbsp;<h3>" + number + "</h3>&nbsp;seg .");
                 number--;
                    if(number<0){
                 window.location=url;
