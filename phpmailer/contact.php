@@ -15,7 +15,7 @@ $mail->Port = 465;          //587                          // TCP port to connec
 
 
 //echo $email= $_POST['n2']."@".$_POST['n3'];
-$mail->setFrom('developer@thetixs.com', 'JuniorMarquez.com.ve');
+$mail->setFrom('developer@thetixs.com', 'Hey! Junior, vieron tu portafolio');
 //$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
 $mail->addAddress('junior.marquez.hsc@gmail.com');              // Name is optional
 //$mail->addReplyTo('$email','roshan');
@@ -26,7 +26,7 @@ $mail->addAddress('junior.marquez.hsc@gmail.com');              // Name is optio
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Contacto CV JuniorMarquez';
+$mail->Subject = 'Y desean contactarte...';
 $mail->Body    = 
    
     '<div align="center" style="background-color:#f6f8f8;">
